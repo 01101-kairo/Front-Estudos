@@ -1,0 +1,54 @@
+/* CSS - CASCADING STYLE SHEETS OU FOLHAS DE ESTILO EM CASCATA.*/
+/* ASSIM QUE FAZ COMENTÁRIOS NO CSS */
+
+/* !IMPORTANT QUEBRA A HIERARQUIA CSS. SÓ USE EM CASOS DE EMERGÊNCIA. */
+
+/*
+    SINTAXE CSS:
+    SELETOR{
+        PROPRIEDADE:VALOR;
+    }
+*/
+
+/*
+    MINI AULA DE BYTE
+    BIT = 0 - 1
+    BYTE = 01001110
+    256 COMBINAÇÕES POSSÍVEIS DESDE O 00000000 ATÉ O 11111111
+
+    MINI AULA DE PIXEL
+    1 PIXEL = RGB
+    256 RED | 256 GREEN | 256 BLUE
+    256 AO CUBO = 16.777.216 DE CORES
+
+    MINI AULA DE CORES
+    NO CSS EXISTEM 4 FORMAS DE ESCOLHER A COR DE ALGO:
+    - O NOME DA COR EM INGLÊS
+    - RGB(R,G,B) VARIANDO DE ZERO A 255
+    - RGBA(R,G,B,ALFA) ONDE ALFA VARIA ENTRE 0 E 1
+    - HEXADECIMAL
+*/
+
+.word{
+    color:#F93 !important; /*Cor da letra*/
+    font-family:Arial, Helvetica, sans-serif;/*Familia de fonte*/
+    font-size:25px;/*Tamanho da fonte*/
+    font-weight:normal;/*negrito da fonte:normal; bold; lighter; bolder;100;900;*/
+    font-style:italic;/*Italico da fonte:normal; italic; oblique; oblique 40deg;*/
+    font-variant:small-caps;/* normal;no-common-ligatures proportional-nums;common-ligatures tabular-nums;small-caps slashed-zero;*/
+}
+
+.text{
+    /* Agrupamento das fontes regras */
+    font:normal italic small-caps 15px/1 Arial, Helvetica, sans-serif;
+    /*estilo tamanho fonte
+     * tamanho da letra e tipo são obrigatorios*/
+
+    /* line-height:50px; altura da linha, se encacha no agrupamento de font aulado de tamanho da fonte*/
+
+    text-align:left;/*alinhamento de texto*/
+    text-decoration:underline;/*sublinhado ou taxado*/
+    text-transform:capitalize;/*muda a caixa do texto*/
+    text-indent:50px;/*espaçamento de parágrafo. pouco usado.*/
+    letter-spacing:2px;/*espaçamento entre letras*/
+}

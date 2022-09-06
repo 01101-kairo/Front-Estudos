@@ -1,0 +1,97 @@
+/* RESET */
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+/* CONTAINER */
+.container{
+    padding: 0 16px;
+}
+/* TITULOS */
+h1{
+    font:36px 'Comfortaa', cursive;
+    margin: 36px 0;
+    letter-spacing: -1px;
+}
+h2{
+    font:900 13px 'Roboto', sans-serif;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+/* STORIES */
+.legenda{
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.legenda p{
+    font:700 13px/1 'Roboto', sans-serif;
+}
+.legenda a{
+    font: 400 11px 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.8);
+}
+.stories section{
+    min-width: 100%;
+}
+.stories{
+    display: flex;
+    gap: 16px;
+}
+.stories-box{
+    overflow-x: scroll;
+    margin-bottom: 46px;
+}
+
+/* POSTS */
+.posts{
+    display: flex;
+    gap: 9px;
+}
+.posts article{
+    width: 100%;
+    display: flex;
+    gap: 9px;
+    flex-direction: column;
+}
+.ver-mais a{
+    display: block;
+    border:2px solid #000 ;
+    border-radius: 6px;
+    padding: 19px 0 18px;
+    margin: 32px 0 80px;
+    font:900 13px 'Roboto', sans-serif;
+
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* RODAPE */
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+    background: #fff;
+    width: 100%;
+    border-top: 1px solid;
+    padding: 9px 0;
+}
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9px;
+}
