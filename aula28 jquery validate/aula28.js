@@ -1,4 +1,5 @@
 $(function(){
+    // VALIDATION
     $(".form-contato").validate({
         rules: {
             nome: {
@@ -8,7 +9,7 @@ $(function(){
             email: {
                 required: true,
                 email: true
-            }
+            },
         },
         messages: {
             nome: {
@@ -22,6 +23,7 @@ $(function(){
         }
     });
 
+    // MASCARA
     $("#fone").mask("(00) 0000-0000");
     $("#cpf").mask("000.000.000-00");
 });
