@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+  vim:et ts=2 sw=2 ft=html: 
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+  </head>
+  <body>
+    <h1 id="demo" onclick="funcao(this)">clique aqui</h1>
+    <select name="" id "demo" onchange="function()">
+      <option value="opção">opção</option>
+      <option value="opção">opção</option>
+      <option value="opção">opção</option>
+    <!--
+    <p id="demo"></p>
+    <p class="ex"></p>
+    <p class="ex"></p>
+    <p class="ex"></p>
+    -->
+    <script>
+      //document.getElementById('demo').innerHTML = 'Texto do meu parágrafo'
+      //console.log(document.getElementsByTagName('p'))
+      // var x=document.getElementsByClassName('ex')
+      //  var x=document.querySelectorAll('p.ex')
+      //   console.log(x)
+      /*
+      document.baseURI /      document.head /         document.forms
+    document.body /         document.inputEncodig / document.links
+    document.doctype /      document.lastModified/  document.images
+    document.documentURI /  document.title /        document.scripts
+    document.domain /       document.URL
+       *///document.write('ISSO É UM TESTE')
+document.getElementById('demo').style.color = 'red'
+function funcao(elemento){
+  alert('pagina caregada!')
+  elemento.innerHTML = 'OBRIGADO'
+  document.getElementById('demo').style.color = 'green'
+}
+document.getElementById('demo').onclick=funcao
+  /* onclick onload onchange omouseover onmouseout
+     onfocus onmousedown onmouseup
+  */</script>
+  </body>
+</html>

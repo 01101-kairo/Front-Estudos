@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+.box{
+    width: 200px;
+    height: 50px;
+    background: #700;
+    margin: 20px;
+    transition: .5s ease all;
+}
+/* animaco */
+/* transiton */
+/* @keyframes */
+.box:hover{
+    background: #070;
+}
+@keyframes anima{
+    from{
+        background: #007;
+    }
+    to{
+        background: #700;
+    }
+
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: #007;
+    animation:anima 5s infinite;
+}
+.cards{
+    display: flex;
+    padding-left: 150px;
+    margin: 20px;
+}
+.card{
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    margin-left: -150px;
+    transition: 2s ease all;
+}
+.card:hover + .card{
+    margin-left: -5px;
+}
+@keyframes banerimg{
+    from{opacity:0;}
+    to{opacity: 1;}
+}
+@keyframes titulo-baner{
+    0%{opacity: 0;}
+    25%{
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@keyframes texto-baner{
+    0%{opacity: 0;}
+    50%{
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes button{
+    0%{opacity: 0;}
+    75%{
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+header{
+    width: 1000px;
+    margin: 0 auto;
+}
+header h3{
+    font:bold 20px Arial, Halvetica, sans-serif;
+    color: #007;
+    text-transform: uppercase;
+    animation: 5s titulo-baner;
+}
+header img{
+    animation: 3s banerimg;
+}
+.tex-banner{
+    font: 18px Arial, Halvetica, sans-serif;
+    color: #008;
+    width: 250px;
+    margin: 20px 0;
+    animation: 6s texto-baner;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+    background: #070;
+    display:block;
+    padding: 10px 30px;
+    width: fit-content;
+    font:20px Arial, Halvetica, sans-serif;
+    border-radius: 5px;
+    box-shadow: -3px 3px 3px #333;
+    animation: 7s button;
+}
+.contbaner{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+vim: et ts=2 sw=2 ft=html -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>aula 01 -JS</title>
+  </head>
+  <body>
+    <p>Informe um número entre 10 e 20:</p>
+    <input type="txt" id="numero">
+    <button onclick="verifica()">verificando</button>
+    <p id="msg"></p>
+    <script>
+      function verifica(){
+        var x = document.getElementById('numero').value
+        try{ 
+          if(x == '') throw  ' Informe um valor'
+          if(isNaN(x)) throw ' Informe um numeral'
+          x= Number(x)
+          if(x<10 || x>20) throw ' Informe numero entre 10 e 20'
+          document.getElementById('msg').innerHTML = 'perfeito, valor esta coerente' 
+        } catch(erro){
+          document.getElementById('msg').innerHTML = 'ERRO'+erro
+        } finally{
+          document.getElementById('numero').value = ''
+        }
+      }
+    </script>
+  </body>
+</html>
