@@ -14,7 +14,26 @@ sao vistas por todos
 o body é o corpo é oque os outros vão ver, e na cabeçã header vai ter o topo da
 pagina na main o principal vai ter as informações de conteudo da pagina e o footer
 é as informaçoes de dados como indereçoe e essas coisas
+# head
 
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Links, meta-tags e mais CSS</title>
+    <link rel="stylesheet" href="css/03ClassID.css">
+<!-- META-TAGS DE SEO -->
+    <meta name="description" content="Aqui inserimos textos que tenham em média 150 caracteres para ficar bonitinho lá no Google.">
+    <meta name="robots" content="index,follow">
+<!-- META-TAGS DE CLASSIFICAÇÃO -->
+    <meta name="rating" content="general">
+    <meta name="author" content="Kairo">
+  </head>
+</html>
+```
+
+# boby
 ## Texto
 As tags h1 até h6 são sempre utilizadas para titulos, onde h1 é o titulo mais
 importante da pagina, indo até o h6 o título menos importante, normalmente só
@@ -62,6 +81,32 @@ A tag p serve para determinar um paragrafo da pagina
     <!-- Tag sub e sup -->
     <br> water: H<sub>2</sub>O  <br> 10<sup>2</sup> = 100
 </p>
+```
+
+# Tag de link
+Tag de link é um elemento inline, deve ser semore inserido dentro de um 
+elemento de bloco
+
+```html
+<!--tag <a></a> hiperlink -->
+<!-- MARCADOR DE ÂNCORA -->
+<a name="topo"></a>
+<a href="#fim">Vá para o fim da página</a>
+<!-- TAG DE LINK É UM ELEMENTO INLINE, DEVE SER SEMPRE INSERIDO DENTRO DE UM ELEMENTO DE BLOCO -->
+<!-- LINK RELATIVO -->
+<a href="aula5.html">Saiba mais</a>
+<!-- LINK ABSOLUTO -->
+<a href="http://www.google.com.br" target="_blank">Veja isso no Google</a>
+<!-- LINK DE DOWNLOAD -->
+<a href="TREICHEL.pptx">Baixe o arquivo</a>
+<!-- LINK DE E-MAIL -->
+<a href="mailto:diego@codeblue.com.br">Fala comigo</a>
+<!-- LINK DE WHATSAPP -->
+<a href="https://wa.me/55218979878978">Fala comigo no Whats</a>
+<!-- LINK DE ÂNCORA -->
+<a href="#topo">Voltar para o topo</a>
+<a name="fim"></a>
+
 ```
 
 ## TAGS PARA LISTAS
