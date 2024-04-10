@@ -1,20 +1,20 @@
 *{
-    margin:0;
-    padding:0;
-    border:0;
-    list-style:none;
+  margin:0;
+  padding:0;
+  border:0;
+  list-style:none;
 }
 img{width:100%;}
 p{
-    margin: 5px;
+  margin: 5px;
 }
 .container{
-    max-width:1100px;
-    margin:0 auto;
+  max-width:1100px;
+  margin:0 auto;
 }
 .row{
-    display:flex;
-    flex-wrap:wrap;
+  display:flex;
+  flex-wrap:wrap;
 }
 .col-xl-12{width:100%}
 .col-xl-11{width:91.5%}
@@ -30,10 +30,10 @@ p{
 .col-xl-1{width: 8.2%}
 
 @media screen and (max-width:1024px){
-    .container{
-        max-width:100%;
-    }
-    .col-12{
-        width:100%;
-    }
+  .container{
+    max-width:100%;
+  }
+  .col-12{
+    width:100%;
+  }
 }

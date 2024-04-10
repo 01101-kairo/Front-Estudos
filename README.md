@@ -367,6 +367,26 @@ normalmente pega essa teg no site que você quer
 ``` html
 <iframe src="http://www.codeblue.com.br" width="500" loading="lazy" height="800"></iframe>
 ```
+## Formulario
+
+# Elementos semânticos
+
+``` html
+<header>
+<main>
+<footer>
+
+<article>
+<aside>
+<details>
+<figure>
+<figcaption>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
+```
 
 # TAG PARA CONTER SEMÂNTICAMENTE UM ENDEREÇO
 

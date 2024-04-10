@@ -1,28 +1,28 @@
 /* RESET CSS */
 /* SELETOR UNIVERSAL */
 *{
-	margin:0;
-	padding:0;
-	border:0;
-	list-style-type:none
+  margin:0;
+  padding:0;
+  border:0;
+  list-style-type:none
 }
 
 /* AGRUPAMENTO DE SELETORES */
 h1,h2,p{
-	color:#FF0000
+  color:#FF0000
 }
 
 /* SELETOR DE ELEMENTO DESCENDENTE */
 h2 span{
-	color: #00FF00;
+  color: #00FF00;
 }
 /* ID E CLASS */
 #exemplo{
-	color:#999000;
+  color:#999000;
 }
 #exemplo span{font-size:20px;}
 .teste{
-	color:#009999;
+  color:#009999;
 }
 .teste .teste-1{text-decoration:underline;}
 /*

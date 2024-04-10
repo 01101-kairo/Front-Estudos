@@ -4,47 +4,47 @@
 /* XGH  -extreme go Horse */
 
 h1{
-	text-align:center;
+  text-align:center;
 }
 h2{
-	font:bold 40px, Arial, Halvetical,sans-serif;
-	text-transform:uppercase
+  font:bold 40px, Arial, Halvetical,sans-serif;
+  text-transform:uppercase
 }
 h3{
-	color: #900;
-	font:bold small-caps 20px, Arial, Halvetical,sans-serif;
+  color: #900;
+  font:bold small-caps 20px, Arial, Halvetical,sans-serif;
 }
 h4{
-	font:bold 30px, Arial, Halvetical,sans-serif;
+  font:bold 30px, Arial, Halvetical,sans-serif;
 }
 p{
-	font:14px/20px 'Times New Roman', Times, serif;
-	color:#333;
-	text-indent:20px;
+  font:14px/20px 'Times New Roman', Times, serif;
+  color:#333;
+  text-indent:20px;
 }
 figure{
-	text-align:center;
+  text-align:center;
 }
 li{
-	font: 14px/20px Georgia, 'Times New Roman', Times, serif;
-	color: #333;
-	/* list pode ser agrupado */
-	list-style-type:none;
-	/* list-style-type:circle; */
-	list-style-image:url(../Imagens/Logos/favicon.png);
-	list-style-position:inside;
+  font: 14px/20px Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+  /* list pode ser agrupado */
+  list-style-type:none;
+  /* list-style-type:circle; */
+  list-style-image:url(../Imagens/Logos/favicon.png);
+  list-style-position:inside;
 }
 th{
-	font: 14px/20px Georgia, 'Times New Roman', Times, serif;
-	color:#333;
-	text-align:left;
-	font-weight:none;
+  font: 14px/20px Georgia, 'Times New Roman', Times, serif;
+  color:#333;
+  text-align:left;
+  font-weight:none;
 }
 td{
-	font: 14px/20px Georgia, 'Times New Roman', Times, serif;
-	color:#333;
+  font: 14px/20px Georgia, 'Times New Roman', Times, serif;
+  color:#333;
 }
 span{
-	text-decoration:underline;
-	color:red;
+  text-decoration:underline;
+  color:red;
 }

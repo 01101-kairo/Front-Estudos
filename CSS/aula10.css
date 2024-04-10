@@ -3,81 +3,81 @@ html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, address, em, img,
 strong, u, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot,
 thead, tr, th, td, main, article, aside, figure, figcaption, footer, header,
 nav, section, time, audio, video{
-    border:0;
-    font-size:100%;
-    font:inherit;
-    margin:0;
-    padding:0;
-    vertical-align:baseline;
+  border:0;
+  font-size:100%;
+  font:inherit;
+  margin:0;
+  padding:0;
+  vertical-align:baseline;
 }
 
 html{scroll-behavior:smooth;}
 
 body{
-    background:#fff;
-    color:#000;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:14px;
-    line-height:1;
+  background:#fff;
+  color:#000;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+  line-height:1;
 }
 ol,ul,li{list-style:none;}
 
 strong{font-family:Arial, Helvetica, sans-serif;}
 
 table{
-    border-collapse:collapse;
-    border-spacing:0;
-    width:100%;
+  border-collapse:collapse;
+  border-spacing:0;
+  width:100%;
 }
 
 a,a:hover{
-    color:#000;
-    text-decoration:none;
-    cursor:pointer;
+  color:#000;
+  text-decoration:none;
+  cursor:pointer;
 }
 
 :focus{outline:0;}
 
 h1 {
-    width: 520px;
-    height: 106px;
-    margin: 20px auto;
-    overflow: hidden;
+  width: 520px;
+  height: 106px;
+  margin: 20px auto;
+  overflow: hidden;
 }
 h2{
-    color: #333;
-    font:bold 26px Arial, Helvetica, sans-serif;
-    background: rgba(255,255,255,0.7);
+  color: #333;
+  font:bold 26px Arial, Helvetica, sans-serif;
+  background: rgba(255,255,255,0.7);
 }
 h4{
-    color: #900;
-    font:normal 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #900;
+  font:normal 16px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3{
-    font:36px Arial, Helvetica, sans-serif;
-    margin: 10px 0 15px;
+  font:36px Arial, Helvetica, sans-serif;
+  margin: 10px 0 15px;
 }
 .banner{
-    background: url(../../Imagens/Fotos/familia-na-praia.jpg)center no-repeat;
-    background-size: 100%;
-    text-align: center;
-    padding: 100px 0 200px;
-    border-top: 1px solid #333;
+  background: url(../../Imagens/Fotos/familia-na-praia.jpg)center no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 100px 0 200px;
+  border-top: 1px solid #333;
 }
 .conteiner{
-    position:relative;
-    top: -26px;
-    margin: 0 auto 0;
-    width: 950px;
-    background: #fff;
-    padding:20px;
+  position:relative;
+  top: -26px;
+  margin: 0 auto 0;
+  width: 950px;
+  background: #fff;
+  padding:20px;
 }
 p{margin-bottom: 10px;}
 .author{font-size: 17px;}
 /* RODAPE */
 footer{
-    border-top:1px solid #000;
-    padding: 20px 0;
-    margin-top: 30px;
-    text-align: center;
+  border-top:1px solid #000;
+  padding: 20px 0;
+  margin-top: 30px;
+  text-align: center;
 }

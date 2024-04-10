@@ -1,90 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Formulários</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <form action="form.php" method="post">
-            <!-- SEMPRE DECLARAR ACTION E METHOD NA TAG FORM PARA SER CONSUMIDO PELO DEV BACK-END -->
-            <fieldset>
-                <legend>Dados Pessoais:</legend>
-                <ul>
-                    <li>
-                        <!-- SEMPRE DECLARAR LABEL FOR COM A MESMA STRING DO ID DO CAMPO DE FORMULÁRIO -->
-                        <span class="campo"><label for="nome">Nome:</label></span>
-                        <input type="text" id="nome" name="nome">
-                        <!-- SEMPRE DECLARAR NAME PARA SER CONSUMIDO PELO DEV BACK-END -->
-                    </li>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <body>
+    <form action="form.php" method="post">
+      <!-- SEMPRE DECLARAR ACTION E METHOD NA TAG FORM PARA SER CONSUMIDO PELO DEV BACK-END -->
+      <fieldset>
+        <legend>Dados Pessoais:</legend>
+        <ul>
+          <li>
+            <!-- SEMPRE DECLARAR LABEL FOR COM A MESMA STRING DO ID DO CAMPO DE FORMULÁRIO -->
+            <span class="campo"><label for="nome">Nome:</label></span>
+            <input type="text" id="nome" name="nome"
+                                           placeholder="Digite seu nome completo" autofocus
+                                           autocomplete="off" required/>
+            <!-- SEMPRE DECLARAR NAME PARA SER CONSUMIDO PELO DEV BACK-END -->
+          </li>
 
-                    <li>
-                        <span class="campo"><label for="email">E-mail:</label></span>
-                        <input type="text" id="email" name="email">
-                    </li>
+          <li>
+            <span class="campo"><label for="email">E-mail:</label></span>
+            <input type="text" id="email" name="email"
+                                             placeholder="contato@epresa.com.br"/>
+          </li>
 
-                    <li>
-                        <span class="campo"><label for="telefone">Telefone:</label></span>
-                        <input type="text" id="telefone" name="telefone">
-                    </li>
+          <li>
+            <span class="campo"><label for="telefone">Telefone:</label></span>
+            <input type="text" id="telefone" name="telefone">
+          </li>
 
-                    <li class="opcoes">
-                        <span class="campo">Gênero:</span>
+          <li class="opcoes">
+            <span class="campo">Gênero:</span>
 
-                        <input type="radio" id="masculino" name="genero" value="Masculino">
-                        <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="Masculino">
+            <label for="masculino">Masculino</label>
 
-                        <input type="radio" id="feminino" name="genero" value="Feminino">
-                        <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="genero" value="Feminino">
+            <label for="feminino">Feminino</label>
 
-                        <input type="radio" id="outro" name="genero" value="Outro">
-                        <label for="outro">Outro</label>
-                    </li>
+            <input type="radio" id="outro" name="genero" value="Outro">
+            <label for="outro">Outro</label>
+          </li>
 
-                    <li class="opcoes">
-                        <span class="campo">Conhecimentos:</span>
+          <li class="opcoes">
+            <span class="campo">Conhecimentos:</span>
 
-                        <input type="checkbox" id="html" name="conhecimentos" value="HTML">
-                        <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="conhecimentos" value="HTML">
+            <label for="html">HTML</label>
 
-                        <input type="checkbox" id="css" name="conhecimentos" value="CSS">
-                        <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="conhecimentos" value="CSS">
+            <label for="css">CSS</label>
 
-                        <input type="checkbox" id="js" name="conhecimentos" value="JS">
-                        <label for="js">JS</label>
+            <input type="checkbox" id="js" name="conhecimentos" value="JS">
+            <label for="js">JS</label>
 
-                        <input type="checkbox" id="bootstrap" name="conhecimentos" value="Bootstrap">
-                        <label for="bootstrap">Bootstrap</label>
+            <input type="checkbox" id="bootstrap" name="conhecimentos" value="Bootstrap">
+            <label for="bootstrap">Bootstrap</label>
 
-                        <input type="checkbox" id="jquery" name="conhecimentos" value="jQuery">
-                        <label for="jquery">jQuery</label>
+            <input type="checkbox" id="jquery" name="conhecimentos" value="jQuery">
+            <label for="jquery">jQuery</label>
 
-                        <input type="checkbox" id="github" name="conhecimentos" value="GitHub">
-                        <label for="github">GitHub</label>
-                    </li>
+            <input type="checkbox" id="github" name="conhecimentos" value="GitHub">
+            <label for="github">GitHub</label>
+          </li>
 
-                    <li>
-                        <span class="campo"><label for="estado">Estado:</label></span>
-                        <select id="estado" name="estado">
-                            <option value="Não selecionado">Escolha seu Estado</option>
-                            <option value="Paraná">Paraná</option>
-                            <option value="Santa Catarina">Santa Catarina</option>
-                            <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-                        </select>
-                    </li>
+          <li>
+            <span class="campo"><label for="estado">Estado:</label></span>
+            <select id="estado" name="estado">
+              <option value="Não selecionado">Escolha seu Estado</option>
+              <option value="Paraná">Paraná</option>
+              <option value="Santa Catarina">Santa Catarina</option>
+              <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+            </select>
+          </li>
 
-                    <li>
-                        <span class="campo"><label for="mensagem">Mensagem:</label></span>
-                        <textarea id="mensagem" name="mensagem"></textarea>
-                    </li>
+          <li>
+            <span class="campo"><label for="mensagem">Mensagem:</label></span>
+            <textarea id="mensagem" name="mensagem"></textarea>
+          </li>
 
-                    <li>
-                        <input type="submit" value="Entrar em contato!">
-                        <!-- EXECUTA O ACTION DA TAG FORM -->
-                    </li>
-                </ul>
-            </fieldset>
-        </form>
-    </body>
+          <li>
+            <input type="submit" value="Entrar em contato!">
+            <!-- EXECUTA O ACTION DA TAG FORM -->
+          </li>
+        </ul>
+      </fieldset>
+    </form>
+  </body>
 </html>
