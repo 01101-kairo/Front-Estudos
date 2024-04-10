@@ -22,12 +22,12 @@ se usa a tag h1 por página
 
 
 ```html
-        <h1>Título de nível hierarquico 1</h1>
-        <h2>Título de nível hierarquico 2</h2>
-        <h3>Título de nível hierarquico 3</h3>
-        <h4>Título de nível hierarquico 4</h4>
-        <h5>Título de nível hierarquico 5</h5>
-        <h6>Título de nível hierarquico 6</h6>
+<h1>Título de nível hierarquico 1</h1>
+<h2>Título de nível hierarquico 2</h2>
+<h3>Título de nível hierarquico 3</h3>
+<h4>Título de nível hierarquico 4</h4>
+<h5>Título de nível hierarquico 5</h5>
+<h6>Título de nível hierarquico 6</h6>
 ```
 A tag p serve para determinar um paragrafo da pagina
 <p title="Soluções para agências">CodeBlue &Oslash; &#199;</p>
@@ -46,7 +46,7 @@ A tag p serve para determinar um paragrafo da pagina
     <span>tipo uma div so que pra texto corrido</span>
     <br>quebra de linha
     <!-- Tag sub e sup -->
-    water: H<sub>2</sub>O  <br> 10<sup>2</sup> = 100
+    <br> water: H<sub>2</sub>O  <br> 10<sup>2</sup> = 100
 </p>
 
 ```html
@@ -60,7 +60,7 @@ A tag p serve para determinar um paragrafo da pagina
     <span>tipo uma div so que pra texto corrido</span>
     <br>quebra de linha
     <!-- Tag sub e sup -->
-    water: H<sub>2</sub>O  <br> 10<sup>2</sup> = 100
+    <br> water: H<sub>2</sub>O  <br> 10<sup>2</sup> = 100
 </p>
 ```
 
@@ -229,12 +229,15 @@ isso era usado para contruir layout
     </tr>
   </tfoot>
 </table>
+
 # Divs
 O site é formado por container caixas com conteudo
+
 ## picture figure figcaption img
 img e o elemento padrão para carregamento de imagens
 ### pincture image sources
 disainer responsivo add img pra celular tablete e pc
+
 ```html
 <picture>
     <source srcset="smaller_landscape.jpg" media="(max-width: 40em) and (orientation: landscape)">
@@ -251,9 +254,12 @@ disainer responsivo add img pra celular tablete e pc
     <source srcset="default_portrait.jpg" media="(min-width: 40em) and (orientation: portrait)">
     <img srcset="../Imagens/Fotos/conheca-3.png" alt="My default image">
 </picture>
+
 ### figure figcaption
+
 figure para marcar uma foto em um documento e um elemento
 figcaption para definir uma legenda para a foto
+
 ```html
 <figure>
   <img class="imagem" 
@@ -265,7 +271,6 @@ figcaption para definir uma legenda para a foto
     descrição da imagem
   </figcaption>
 </figure>
-
 ```
 <figure>
   <img class="imagem" src="../Imagens/Fotos/conheca-3.png" 
@@ -279,7 +284,9 @@ figcaption para definir uma legenda para a foto
 
 
 ## Tag's de midia
+
 ### Tag de audio
+
 ``` html
 <audio src="Enough - NEFFEX.mp3" autoplay controls loop preload></audio>
 
@@ -291,6 +298,7 @@ figcaption para definir uma legenda para a foto
 ```
 
 ### Tag de video
+
 ``` html
 <video src="Design sem nome.mp4" autoplay controls loop preload></video>
 
@@ -302,6 +310,7 @@ figcaption para definir uma legenda para a foto
 ```
 
 ### Iframes
+
 normalmente pega essa teg no site que você quer 
 (youtube google maps entre outros)
 
