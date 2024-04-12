@@ -280,8 +280,28 @@ isso era usado para contruir layout
 ```
 
 <hr />
+
 # Divs
 O site é formado por container caixas com conteudo
+
+# Elementos semânticos
+
+``` html
+<header>
+<main>
+<footer>
+
+<nav>
+<article>
+<aside>
+<details>
+<mark>
+<section>
+<summary>
+<time>
+<figure>
+<figcaption>
+```
 
 ## picture figure figcaption img
 img e o elemento padrão para carregamento de imagens
@@ -369,27 +389,19 @@ normalmente pega essa teg no site que você quer
 ```
 ## Formulario
 
-# Elementos semânticos
-
-``` html
-<header>
-<main>
-<footer>
-
-<article>
-<aside>
-<details>
-<figure>
-<figcaption>
-<mark>
-<nav>
-<section>
-<summary>
-<time>
-```
 
 # TAG PARA CONTER SEMÂNTICAMENTE UM ENDEREÇO
+```html
+<address>
+    <p>Rua bhfalshdlfas, 7897897 - Bairro - tururu</p>
+</address>
 
+TAG PARA CONTER SEMÂNTICAMENTE UM PERÍODO DE TEMPO
+
+<time>
+    <p>Aberto das 09 às 18 horas</p>
+</time>
+```
 <address>
     <p>Rua bhfalshdlfas, 7897897 - Bairro - tururu</p>
 </address>
