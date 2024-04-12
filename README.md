@@ -314,7 +314,7 @@ disainer responsivo add img pra celular tablete e pc
     <source srcset="smaller_portrait.jpg" media="(max-width: 40em) and (orientation: portrait)">
     <source srcset="default_landscape.jpg" media="(min-width: 40em) and (orientation: landscape)">
     <source srcset="default_portrait.jpg" media="(min-width: 40em) and (orientation: portrait)">
-    <img srcset="../Imagens/Fotos/conheca-3.png" alt="My default image">
+    <img srcset="./img/Fotos/conheca-3.png" alt="My default image">
 </picture>
 ```
 <picture>
@@ -322,7 +322,7 @@ disainer responsivo add img pra celular tablete e pc
     <source srcset="smaller_portrait.jpg" media="(max-width: 40em) and (orientation: portrait)">
     <source srcset="default_landscape.jpg" media="(min-width: 40em) and (orientation: landscape)">
     <source srcset="default_portrait.jpg" media="(min-width: 40em) and (orientation: portrait)">
-    <img srcset="../Imagens/Fotos/conheca-3.png" alt="My default image">
+    <img srcset="./img/Fotos/conheca-3.png" alt="My default image">
 </picture>
 
 ### figure figcaption
@@ -333,7 +333,7 @@ figcaption para definir uma legenda para a foto
 ```html
 <figure>
   <img class="imagem" 
-  src="../Imagens/Fotos/conheca-3.png" 
+  src="./img/Fotos/conheca-3.png" 
   alt="pezinhos de nenem fazendo um coracao"
   loading="lazy" width="256" height="168">
 
@@ -343,7 +343,7 @@ figcaption para definir uma legenda para a foto
 </figure>
 ```
 <figure>
-  <img class="imagem" src="../Imagens/Fotos/conheca-3.png" 
+  <img class="imagem" src="./img/Fotos/conheca-3.png" 
   alt="pezinhos de nenem fazendo um coracao"
   loading="lazy" width="256" height="168">
   <figcaption>
